@@ -94,22 +94,43 @@ function uploadToOneDrive($filename, $accessToken, $onedrivePath = '/Documentos/
 
 // JSON de entrada como string. Contiene datos anidados en la clave "direccion".
 $json = '[
-    {
-        "nombre": "Juan",
-        "edad": 30,
-        "direccion": {
-            "ciudad": "San José",
-            "pais": "Costa Rica"
+ {
+        "name": "Carlos",
+        "age": 28,
+        "email": "carlos@example.com",
+        "address": {
+            "city": "Lima",
+            "country": "Peru"
         }
     },
     {
-        "nombre": "Ana",
-        "edad": 25,
-        "direccion": {
-            "ciudad": "Heredia",
-            "pais": "Costa Rica"
+        "name": "Lucia",
+        "age": 32,
+        "email": "lucia@example.com",
+        "address": {
+            "city": "Quito",
+            "country": "Ecuador"
+        }
+    },
+    {
+        "name": "Pedro",
+        "age": 40,
+        "email": "pedro@example.com",
+        "address": {
+            "city": "Bogota",
+            "country": "Colombia"
+        }
+    },
+    {
+        "name": "Sofia",
+        "age": 22,
+        "email": "sofia@example.com",
+        "address": {
+            "city": "Asuncion",
+            "country": "Paraguay"
         }
     }
+
 ]';
 
 // Obtiene el token de acceso desde argumentos de línea de comandos.
