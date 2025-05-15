@@ -13,10 +13,10 @@ Install-Module -Name MSAL.PS -Scope CurrentUser -Force
 # ============================================
 
 # ID del inquilino de Azure AD (Tenant ID)
-$tenantId = '216525f5-ee44-4381-a1ac-224cf3ab3a73' # Reemplaza con tu Tenant ID
+$tenantId = 'tu-tenandId' # Reemplaza con tu Tenant ID
 
 # ID de la aplicación registrada en Azure (Client ID)
-$clientId = '04814e0a-7cd2-4a74-8677-900a71478e0f' # Reemplaza con tu Client ID
+$clientId = 'tu-clientId' # Reemplaza con tu Client ID
 
 # Permisos requeridos para el token de acceso
 # "User.Read": lectura básica del perfil del usuario
